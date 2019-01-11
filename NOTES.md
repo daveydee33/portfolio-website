@@ -3,7 +3,7 @@
 - image credits:
   - [background](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
 
-creating initial files.
+# Creating initial files. (part 1 - intro and Sass workflow setup)
 
 - dist/index.html
 - scss/main.scss
@@ -25,3 +25,7 @@ and also add a script to our `package.json` so we can use the `sass` command to 
 ```
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
 ```
+
+# Homepage and main Sass (2)
+
+# Rotating menu button (3)
