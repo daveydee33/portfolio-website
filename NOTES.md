@@ -1,5 +1,7 @@
 - using VSCode extension LiveServer for development
 - following Traversy playlist - [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU)
+- image credits:
+  - [background](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
 
 creating initial files.
 
