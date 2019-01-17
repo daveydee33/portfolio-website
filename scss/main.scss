@@ -1,5 +1,6 @@
 @import 'config'; // _config.scss
 @import 'menu';
+@import 'mobile';
 
 // Select all (use *)
 * {
@@ -9,7 +10,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: #fff;
+  color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -53,7 +54,8 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%;
+  // height: 100%;
+  min-height: calc(100vh - 60px);
 
   .icons {
     margin-top: 1rem;

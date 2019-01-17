@@ -1,5 +1,5 @@
 - using VSCode extension LiveServer for development
-- following Traversy playlist - [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU)
+- following Traversy playlist - [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) and [Repo](https://github.com/bradtraversy/modern_portfolio)
 - image credits:
   - [background](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
 
@@ -29,3 +29,7 @@ and also add a script to our `package.json` so we can use the `sass` command to 
 # Homepage and main Sass (2)
 
 # Rotating menu button (3)
+
+JavaScript and Sass to control the menu button with animated rotation. I think I may need to work on the transition a bit more so that it rotates the other direction - and then I'd also need to fix the positioning of them also so the X is correct and positioned correctly.
+
+# Menu overlay and responsiveness
