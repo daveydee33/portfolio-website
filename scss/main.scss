@@ -64,7 +64,7 @@ main {
 
       &:hover {
         color: $secondary-color;
-        @include easeOut();
+        @include easeOut;
       }
     }
   }
@@ -77,6 +77,7 @@ main {
   }
 }
 
+// About Me
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -114,6 +115,48 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+}
+
+// Work/Projects
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeate(3, 1fr);
+
+  img {
+    width: 100%; // shrink image to 100% of it's container
+    border: 3px white solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
+// Button Styles
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: white;
+}
+
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: white;
 }
 
 #main-footer {
