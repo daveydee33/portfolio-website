@@ -6,6 +6,12 @@ Simple portfolio-style static website using HTML, SCSS, JavaScript. Responsive a
 
 - Don't edit the `main.css` file directly. Only edit the files in `scss` directory and then run `npm run sass` to build the css directory and files using node-sass.
 
+- To deploy this to GitHub pages:
+
+```
+npm run deploy
+```
+
 # To Do
 
 - I think I may need to work on the transition a bit more so that it rotates the other direction - and then I'd also need to fix the positioning of them also so the X is correct and positioned correctly.
