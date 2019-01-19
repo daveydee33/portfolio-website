@@ -1,7 +1,16 @@
-- using VSCode extension LiveServer for development
-- following Traversy playlist - [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) and [Repo](https://github.com/bradtraversy/modern_portfolio)
-- image credits:
-  - [background](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
+# Description
+
+Simple portfolio-style static website using HTML, SCSS, JavaScript. Responsive and mobile-friendly design.
+
+## Sources:
+
+- Example taken from Traversy Media [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) and [repo](https://github.com/bradtraversy/modern_portfolio)
+
+- [background image](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
+
+# Notes
+
+- Don't edit the `main.css` file directly. Only edit the files in `scss` directory and then run `npm run sass` to build the css directory and files using node-sass.
 
 # Creating initial files. (part 1 - intro and Sass workflow setup)
 
