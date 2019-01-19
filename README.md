@@ -12,7 +12,11 @@ Simple portfolio-style static website using HTML, SCSS, JavaScript. Responsive a
 
 - Don't edit the `main.css` file directly. Only edit the files in `scss` directory and then run `npm run sass` to build the css directory and files using node-sass.
 
-# Part 1 - Creating initial files.  Sass workflow setup.
+# To-do
+
+- I think I may need to work on the transition a bit more so that it rotates the other direction - and then I'd also need to fix the positioning of them also so the X is correct and positioned correctly.
+
+# Part 1 - Creating initial files. Sass workflow setup.
 
 - dist/index.html
 - scss/main.scss
@@ -35,10 +39,10 @@ and also add a script to our `package.json` so we can use the `sass` command to 
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
 ```
 
-# part 2 - homepage and main Sass
+# Next steps
 
-# part 3 - rotating menu button
-
-JavaScript and Sass to control the menu button with animated rotation. I think I may need to work on the transition a bit more so that it rotates the other direction - and then I'd also need to fix the positioning of them also so the X is correct and positioned correctly.
-
-# part 4 - menu overlay and responsiveness
+- 2 - homepage and main Sass
+- 3 - rotating menu button, animated with JavaScript and Sass.
+- 4 - menu overlay and responsiveness
+- 5 - About page with CSS grid
+- 6 - Work/Projects page and Contact page
