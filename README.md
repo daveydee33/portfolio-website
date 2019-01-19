@@ -2,21 +2,15 @@
 
 Simple portfolio-style static website using HTML, SCSS, JavaScript. Responsive and mobile-friendly design.
 
-## Sources:
-
-- Example taken from Traversy Media [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) and [repo](https://github.com/bradtraversy/modern_portfolio)
-
-- [background image](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
-
 # Notes
 
 - Don't edit the `main.css` file directly. Only edit the files in `scss` directory and then run `npm run sass` to build the css directory and files using node-sass.
 
-# To-do
+# To Do
 
 - I think I may need to work on the transition a bit more so that it rotates the other direction - and then I'd also need to fix the positioning of them also so the X is correct and positioned correctly.
 
-# Part 1 - Creating initial files. Sass workflow setup.
+# Dev Part 1 - Creating initial files, and Sass workflow setup.
 
 - dist/index.html
 - scss/main.scss
@@ -39,10 +33,16 @@ and also add a script to our `package.json` so we can use the `sass` command to 
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
 ```
 
-# Next steps
+# Dev Part 2
 
-- 2 - homepage and main Sass
-- 3 - rotating menu button, animated with JavaScript and Sass.
-- 4 - menu overlay and responsiveness
-- 5 - About page with CSS grid
-- 6 - Work/Projects page and Contact page
+- homepage and main Sass
+- rotating menu button, animated with JavaScript and Sass.
+- menu overlay and responsiveness
+- About page with CSS grid
+- Work/Projects page and Contact page
+
+# Credits
+
+- Example taken from Traversy Media [Responsive Portfolio Website](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) and [repo](https://github.com/bradtraversy/modern_portfolio)
+
+- [background image](https://www.pexels.com/photo/aerial-photo-of-mountain-surrounded-by-fog-733174/)
